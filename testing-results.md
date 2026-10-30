@@ -11,7 +11,7 @@ The initial AdGuard Home dashboard showed the following values:
 | Blocked share | 43% |
 | Average processing time | 4 ms |
 
-The date, time, and measurement window were not captured. These are point-in-time dashboard values, not ongoing monitoring results. The 43% figure is the value shown on the dashboard; it should not be read as a measured block rate for every device, site, or time period.
+The screenshot's Windows taskbar shows 17:41 on 30 October 2026, and the dashboard labels its general statistics as covering the last 24 hours. These remain a single point-in-time dashboard record, not ongoing monitoring results. The 43% figure is the value shown on the dashboard; it should not be read as a measured block rate for every device, site, or time period.
 
 ## Configuration recorded alongside the snapshot
 

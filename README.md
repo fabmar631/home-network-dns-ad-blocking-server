@@ -36,16 +36,36 @@ Other devices currently use DNS forwarded by the router. This documents the conf
 | Blocked share | 43% |
 | Average processing time | 4 ms |
 
-The date, time, and measurement window for this initial snapshot were not recorded. The values should be treated as a baseline only. More context and limitations are in [testing results](testing-results.md).
+The screenshot shows 17:41 on 30 October 2026 in the Windows taskbar, and AdGuard Home labels its general statistics as covering the last 24 hours. This is one point-in-time observation, not a long-term performance claim. More context and limitations are in [testing results](testing-results.md).
 
 ## Repository contents
 
 - [Network diagram](network-diagram.md) — Mermaid diagram of the documented DNS forwarding path.
 - [Testing results](testing-results.md) — recorded dashboard values and what they do and do not establish.
 - [Lessons learned](lessons-learned.md) — practical conclusions based on the documented setup and its current evidence.
-- [Screenshots](screenshots/) — reserved for sanitized project screenshots. No screenshots were available in the workspace when this repository was prepared.
+- [Screenshots](screenshots/) — sanitized photos and configuration screenshots from the project.
+
+## Screenshots
+
+These images document the server hardware, AdGuard Home's initial dashboard, the enabled DNS blocklists, and the router's DNS configuration. Dashboard figures are point-in-time results; see [testing results](testing-results.md) for context.
+
+### Server hardware
+
+![Lenovo ThinkCentre DNS server beside the Vodafone Power Hub](screenshots/server-and-router.png)
+
+### Initial AdGuard Home dashboard
+
+![Initial dashboard showing 827 DNS queries, 352 blocked, 43% blocked, and 4 ms average processing time](screenshots/adguard-dashboard-initial.png)
+
+### Enabled blocklists
+
+![AdGuard DNS Filter and HaGeZi Multi Normal are enabled](screenshots/adguard-blocklists-enabled.png)
+
+### Router DNS configuration
+
+![Vodafone Power Hub DNS settings configured to use the AdGuard server](screenshots/router-dns-configuration.png)
 
 ## Privacy
 
-Only the local network addresses already used in the project documentation are included. Router passwords, Wi-Fi credentials, MAC addresses, serial numbers, public IP addresses, and secrets visible in photographs are intentionally excluded. Review and redact screenshots before adding them.
+The included images are sanitized copies; the original files were left unchanged. Credentials, Wi-Fi details, MAC addresses, serial labels, public IP addresses, and device identities visible in the source images were excluded or obscured. The local RFC1918 addresses already documented in this repository remain visible where needed to explain the setup.
 
